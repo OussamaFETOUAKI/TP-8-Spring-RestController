@@ -1,0 +1,50 @@
+{
+  "get_all_json": {
+    "status": 200,
+    "content_type": "application/json",
+    "body": "[{\"id\":1,\"solde\":4516.991424721711,\"dateCreation\":\"2026-11-17\",\"type\":\"EPARGNE\"},{\"id\":2,\"solde\":4331.912869074417,\"dateCreation\":\"2026-11-17\",\"type\":\"COURANT\"},{\"id\":3,\"solde\":1289.5291225667747,\"dateCreation\":\"2026-11-17\",\"type\":\"EPARGNE\"}]"
+  },
+  "get_all_xml": {
+    "status": 200,
+    "content_type": "application/xml",
+    "body": "<List><item><id>1</id><solde>4516.991424721711</solde><dateCreation>2026-11-17</dateCreation><type>EPARGNE</type></item><item><id>2</id><solde>4331.912869074417</solde><dateCreation>2026-11-17</dateCreation><type>COURANT</type></item><item><id>3</id><solde>1289.5291225667747</solde><dateCreation>2026-11-17</dateCreation><type>EPARGNE</type></item></List>"
+  },
+  "get_one_json": {
+    "status": 200,
+    "content_type": "application/json",
+    "body": "{\"id\":1,\"solde\":4516.991424721711,\"dateCreation\":\"2026-11-17\",\"type\":\"EPARGNE\"}"
+  },
+  "get_one_xml": {
+    "status": 200,
+    "content_type": "application/xml",
+    "body": "<compte><id>1</id><solde>4516.991424721711</solde><dateCreation>2026-11-17</dateCreation><type>EPARGNE</type></compte>"
+  },
+  "post_json": {
+    "status": 200,
+    "content_type": "application/json",
+    "body": "{\"id\":4,\"solde\":15000.0,\"dateCreation\":\"2026-11-17T00:00:00.000+00:00\",\"type\":\"COURANT\"}"
+  },
+  "post_xml": {
+    "status": 200,
+    "content_type": "application/xml",
+    "body": "<compte><id>5</id><solde>8500.0</solde><dateCreation>2026-11-17T00:00:00.000+00:00</dateCreation><type>EPARGNE</type></compte>"
+  },
+  "put_json": {
+    "status": 200,
+    "content_type": "application/json",
+    "body": "{\"id\":1,\"solde\":22500.0,\"dateCreation\":\"2026-11-17T00:00:00.000+00:00\",\"type\":\"EPARGNE\"}"
+  },
+  "put_xml": {
+    "status": 200,
+    "content_type": "application/xml",
+    "body": "<compte><id>2</id><solde>30000.0</solde><dateCreation>2026-11-17T00:00:00.000+00:00</dateCreation><type>COURANT</type></compte>"
+  },
+  "delete": {
+    "status": 200,
+    "content_type": null
+  },
+  "openapi": {
+    "status": 200,
+    "body_len": 2325
+  }
+}
